@@ -29,6 +29,14 @@ body {
   height: 100vh;
 }
 
+html { 
+  background: var(--bg-url) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
